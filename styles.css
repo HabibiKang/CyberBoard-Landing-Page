@@ -1,0 +1,147 @@
+#header-img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: -10px;
+    margin-top: 40px;
+}
+
+@media (max-width: 3000px) {
+html {
+    scroll-behavior: smooth;
+    background: radial-gradient(
+        circle,
+        #444444,
+        #333333,
+        #222222,
+        #111111,
+        #000000
+
+    );
+}
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+    font-family: sans-serif;
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px;
+    text-shadow: 2px 2px 4px #720e9e;
+    color: #DDDDDD;
+}
+
+.nav-link:hover {
+    color: #720e9e;
+}
+
+#heading {
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px #720e9e;
+    color: #DDDDDD;
+    display: block;
+}
+
+#sub-heading {
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px #720e9e;
+    color: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider {
+    margin-top: 80px;
+}
+
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form > input[id="email"], #email::placeholder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 5px;
+    color: #DDDDDD;
+    background: radial-gradient(
+        circle,
+        #444444,
+        #333333,
+        #222222,
+        #111111,
+        #000000,
+        black
+    );
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #DDDDDD;
+    background: radial-gradient(
+        circle,
+        #444444,
+        #333333,
+        #222222,
+        #111111,
+        #000000,
+        black
+    );
+}
+
+#submit:hover  {
+    color: #720e9e;
+}
+
+#features-heading {
+    font-family: sans-serif;
+    color: #DDDDDD;
+    text-shadow: 2px 2px 4px #720e9e;
+}
+
+#features-p {
+    font-family: sans-serif;
+    color: #DDDDDD;
+}
+
+#how-it-works-heading {
+    font-family: sans-serif;
+    color: #DDDDDD;
+    text-shadow: 2px 2px 4px #720e9e;
+}
+
+#how-it-works-p {
+    font-family: sans-serif;
+    color: #DDDDDD;
+}
+
+#pricing-heading {
+    font-family: sans-serif;
+    color: #DDDDDD;
+    text-shadow: 2px 2px 4px #720e9e;
+}
+
+#pricing-p {
+    font-family: sans-serif;
+    color: #DDDDDD;
+}
